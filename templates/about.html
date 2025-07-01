@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block title %}
+    About
+{% endblock title %}
+{% block body %}
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <div class="d-block w-100 p-4 text-center">
+        <h2 class="display-8 fw-bold mb-3">About Your To-Do List Project</h2>
+        <p class="lead">Welcome to your intuitive To-Do List application, designed to simplify your daily tasks and boost your productivity! Built with a clean interface, it helps you effortlessly manage your commitments.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-block w-100 p-4 text-center">
+        <h3 class="display-6 fw-bold mb-3">Effortless Task Creation</h3>
+        <p class="lead">Got a new idea or an urgent task? Simply type your item into the input field and hit "Add." Your new task instantly appears on your list, ready for action. Keeping track has never been easier!</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-block w-100 p-4 text-center">
+        <h3 class="display-6 fw-bold mb-3">Clear Your List with Ease</h3>
+        <p class="lead">Task accomplished? Fantastic! Click the "Delete" button next to any completed item to remove it from your list. Enjoy the satisfaction of a decluttered view and focus on what's next.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-block w-100 p-4 text-center">
+        <h3 class="display-6 fw-bold mb-3">Flexible Task Management</h3>
+        <p class="lead">Plans change, and so can your tasks. Need to adjust a deadline or refine a description? Click "Edit" on any item, make your changes, and save. Your list stays dynamic and always reflects your current priorities.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="d-block w-100 p-4 text-center">
+            <h3 class="display-6 fw-bold mb-3">Designed for Clarity</h3>
+            <p class="lead">Our minimalist design keeps distractions at bay. Focus solely on your tasks without unnecessary clutter, ensuring a smooth and efficient experience every time you open the app.</p>
+        </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+{% endblock body %}

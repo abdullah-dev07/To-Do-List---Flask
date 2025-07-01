@@ -33,6 +33,11 @@ def hello_world():
 def products():
     return "these are the products!"
 
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 @app.route('/update/<int:sno>', methods=['POST','GET'])
 def update(sno):
     if request.method=='POST':
